@@ -64,8 +64,6 @@ Check which plot needs treatment
 Distinguish between sick and healthy crops
 Distinguish between different types of crops, to administer specific treatments, different treatments depending on which type of crop needs it.
 
-### Applications:
-
 
 ### Papers: 
 
