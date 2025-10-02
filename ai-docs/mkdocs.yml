@@ -1,2 +1,7 @@
-site_name: My Docs
+site_name: Ai and sustainability
+nav:
+  - Home: index.md
+  - 1st session: 1stsession.md 
+  - Papers: papers.md
+  - Applications: applications.md
 theme: readthedocs
