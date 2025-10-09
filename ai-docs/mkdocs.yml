@@ -4,6 +4,7 @@ nav:
   - 1st session: 1stsession.md 
   - Papers: papers.md
   - Applications: applications.md
-  - Assignment n°1: 'Assignment n°1.md'
+  - Assignment n°1: 'Assignment_1.md'
+  - Assignment n°2: 'Assignment_2.md'
   - Facts and Values: 'facts&values.md'
 theme: readthedocs
