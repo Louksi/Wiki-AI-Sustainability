@@ -6,5 +6,9 @@ nav:
   - Applications: applications.md
   - Assignment n°1: 'Assignment_1.md'
   - Assignment n°2: 'Assignment_2.md'
+  - Assignment n°3: 'Assignment_3.md'
+  - Assignment n°4: 'Assignment_4.md'
   - Facts and Values: 'facts&values.md'
 theme: readthedocs
+markdown_extensions:
+  - footnotes
