@@ -25,7 +25,23 @@ The overall conclusion is that aerial methods have a reduced environmental impac
 
 ## 2. Who are the stakeholders (funders, users, companies, researchers, distributors, law, associations, federations, local authorities, etc.) involved in the development and deployment of the AI system?
 
-fdsfds
+In the case of stakesholder, its quite difficult to find all actors, but we can find in the **Transforming Farming: A Review of AI-Powered UAV Technologies in Precision Agriculture[9]** it will show a workflow for integration of UAVs,sensors, and AI in precision farming. For the sake of the quantity of actors, we will show it under tables.
+
+For the companies, there is a lot of actors such as :
+
+
+|Category | Company| product| Description | 
+| ---| ------------- | ------------- | --- |
+|AI-driven seeding and spraying drone| XAG | P100 agricultural drone | AI-powered UAV designed for precision seeding and spraying in agriculture |
+| AI-enhanced smart irrigation| Netafim | Net | AI-based irrigation system that optimizes water usage based on real-time data |
+|Soil and plant stress monitoring UAV | CropX || AI-based platform for soil and crop monitoring, integrating sensors for plant health detection.
+|Soil health monitoring system| Arable mark 2 || Solar-Powered sensor that tracks soil moisture,temperature, and plant health metrics|
+
+
+For the customers of these solution we found in the [cropx website](https://cropx.com/) have actors such as Greenway,Reinke,Sumitomo corporation pepsico,dairy holdings limited.
+Also for these company they have a distribution network around the globe.
+
+In case of law and federation, the most company are based in USA so we will use USA law andfederation. First, there is the [FAA](https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107) (Federal Aviation Administration) who state laws for commercial use of the drone, Certificate and Airspace Authorizations.
 
 ## 3. What arguments are used by stakeholders to promote or, on the contrary, discourage the solution?
 
