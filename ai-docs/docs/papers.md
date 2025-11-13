@@ -19,3 +19,9 @@
 
 9. Juhi Agrawal,and Muhammad Yeasir Arafat,[Transforming Farming: A Review of AI-Powered UAV
 Technologies in Precision Agriculture](https://www.researchgate.net/profile/Muhammad-Yeasir-Arafat-2/publication/385734156_Transforming_Farming_A_Review_of_AI-Powered_UAV_Technologies_in_Precision_Agriculture/links/6733139137496239b2bcafa0/Transforming-Farming-A-Review-of-AI-Powered-UAV-Technologies-in-Precision-Agriculture.pdf),
+
+10. [A Real-time Low-cost Artificial Intelligence System for Autonomous Spraying in Palm Plantations](https://arxiv.org/abs/2103.04132)
+
+11. [Cost Analysis of Using UAV Sprayers for Olive Fruit Fly Control](https://storage.prod.researchhub.com/uploads/papers/2023/11/10/pdfversion1698115295.pdf)
+
+12. [DJI Agriculture](https://ag.dji.com/)

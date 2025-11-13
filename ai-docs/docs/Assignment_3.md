@@ -3,7 +3,20 @@
 ## 1. What is the approximate energy consumption per year
 **Estimate the approximate annual energy consumption for a functional unit including an AI solution that you must choose.**
 
-dsds
+In this study, we consider an agricultural UAV equipped with an integrated artificial intelligence (AI) system for real-time crop monitoring and targeted pesticide application. Such drones combine multispectral or RGB imaging with onboard machine learning models that detect crop stress or pest infestations and autonomously trigger localized spraying.
+
+Recent research shows that agricultural UAVs equipped with onboard AI systems can perform real-time decision-making during flight. For instance, a low-cost autonomous spraying drone using a deep learning model for palm plantations was shown to operate with an AI module consuming only about 1.5 W during inference [10]. In such platforms, the overall energy consumption is dominated by propulsion and spraying operations, while the embedded AI represents less than 1% of the total power demand.
+
+According to empirical field data, spraying UAVs are typically active for about 95 to 140 hours per year, depending on crop type and region [11].
+Considering a realistic spraying workload of approximately 100 hours of effective flight per year and an average flight power of 6–10 kW (values typical for professional spraying drones such as the DJI Agras series [12]), the annual energy consumption of such an AI-enhanced UAV can be estimated as:
+
+$$
+E_{annual}​=P_{flight}​×t_{annual}​=8000W×100h=800 kWh/year
+$$
+
+Including the energy consumption of the onboard AI, the total energy consumption reaches approximately 0.9 MWh per year for a fully operational AI-enabled agricultural drone.
+
+In summary, a modern multifunctional drone integrating multispectral imaging and onboard AI typically operates for around 100 hours per year, consuming between 0.8 and 0.9 MWh annually. The overall energy consumption is primarily due to propulsion and spraying operations, while the onboard AI accounts for less than 1% of the total energy consumption.
 
 ## 2. Are there any Life Cycle Assessment (LCA) studies for your equipment?
 **Do any LCA analyses covering your type of equipment or similar systems exist? Which phase of the life cycle (e.g. manufacturing, use, end-of-life) has the greatest environmental impact?**
