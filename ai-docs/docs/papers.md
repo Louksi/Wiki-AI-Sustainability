@@ -25,3 +25,5 @@ Technologies in Precision Agriculture](https://www.researchgate.net/profile/Muha
 11. [Cost Analysis of Using UAV Sprayers for Olive Fruit Fly Control](https://storage.prod.researchhub.com/uploads/papers/2023/11/10/pdfversion1698115295.pdf)
 
 12. [DJI Agriculture](https://ag.dji.com/)
+
+13. [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC12148078/)

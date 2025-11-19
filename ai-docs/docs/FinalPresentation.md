@@ -29,10 +29,30 @@ And finally we tried to gather information on the impact of manufacturing such t
 -discussion of the pros and cons: what we found out across the assignments
 
 -short discussions about each assignment (sum up each assignment)
-.1
-.2
-.3
-.4
+
+1.
+
+Current drone systems, developed for both research and industry, operate using optical, thermal, or LiDAR sensors, sometimes combined with AI models, to detect diseases and, in some cases, perform targeted spraying. They work by capturing geolocated images or measurements, then preprocessing them to correct acquisition errors before having them analyzed by AI algorithms (CNNs, deep learning, random forests) to produce maps or diagnoses, potentially in real time.
+
+These technologies are used for disease monitoring and crop treatment, with experiments on small plots and industrial applications on large areas.
+
+However, these drones are subject to certain constraints/limitations such as weather conditions, short battery life, the need for frequent calibration, equipment costs, storage constraints, the need for labeled and expensive training data, processing time, and strict adherence to airspace regulations.
+
+2.
+
+Drone-based disease detection systems primarily rely on supervised learning, using classical models (random forests, SVMs) or deep neural networks, such as CNNs, or other architectures like ResNet, EfficientNet, or U-Net. Some approaches combine multiple networks (e.g., LaNet5 + SegNet for vine segmentation) or employ feature selection and optimization techniques (mRMR, ant colony algorithms). When labeled data is lacking, unsupervised methods or reinforcement learning can be used instead.
+
+The resulting data to be analyzed consists of large, geolocated images accompanied by metadata, sometimes amounting to tens of gigabytes per flight. This data is generally private and protected, then stored locally or in the cloud. Before training, the data is preprocessed, labeled, and augmented to produce robust datasets, as in YOLO-Fi, which combines multispectral bands, vegetation indices, and manual annotations to create structured training and validation datasets.
+
+The necessary infrastructure relies on drones equipped with various optical sensors (RGB, multispectral, hyperspectral, thermal, LiDAR) and GPS systems. Data can be processed in real time via onboard modules or analyzed post-flight on local or cloud servers using image and data processing tools such as OpenCV, GDAL, or QGIS, and frameworks like PyTorch or TensorFlow. Some systems, such as those using YOLO-Fi, rely on specific multispectral drones and RTK stations for highly accurate geolocation, as well as powerful computing hardware (e.g., RTX 4090 GPUs) for training.
+
+3.
+
+After combining various resources, we found that the annual consumption of a drone was approximately 0.8 and 0.9 MWh annually, almost all of which is due to physical materials and propulsion and not to the onboard AI system (less than 1%).
+
+...
+
+4.
 We had a hard time finding reports from companies. Unfortunately, the one we did find did not have any information on GHG emissions, water usage, or energy consumption during the manufacture, or use of those technologies. The report from DJI Agriculture [5] focuses on the impact of their products on farming. However, they do not discuss the impact of AI, nor the cost of drones over traditional methods.<br>
 While we didn’t find any specific figures on the environmental impact of drones in agriculture given by companies, there are some reports that study LCA of such drones.<br>
 They rarely give precise numbers, but we understand through a comparison between ground-based techniques and UAVs [8], that drones generally are less power hungry, they are more efficient and help reduce labor.<br>
@@ -48,7 +68,7 @@ In addition, stakeholders worry about the use of data collected. Images or video
 ### Pros:
 
 - Lower energy cost: Electric drones cost less to run than oil-powered tractors or vehicles.
-> emy
+> "Conventional spraying consumes 2.43 times more energy than drone spraying, with values of 365.26 MJ/ha and 146.84 MJ/ha, respectively" [13]
 
 - Speed and efficiency: Much faster than manual labor; reduces repetitive, tedious work.
 > Drones such as quadcopters, hexacopters, or fixed-wing models are equipped with imaging sensors, including RGB, multispectral, hyperspectral, thermal, or LiDAR cameras, as well as GPS modules for precise geolocation.
@@ -90,13 +110,3 @@ In addition, stakeholders worry about the use of data collected. Images or video
 - Responsibility in case of accidents: Liability for crashes, crop damage, or misuse can be unclear (farmer vs. manufacturer).
 
 - Adaptability limits: AI may struggle with evolving diseases or unexpected environmental factors.
-
-
-
-
-
-
-
-
-
-
