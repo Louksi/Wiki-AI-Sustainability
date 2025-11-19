@@ -33,6 +33,12 @@ And finally we tried to gather information on the impact of manufacturing such t
 .2
 .3
 .4
+We had a hard time finding reports from companies. Unfortunately, the one we did find did not have any information on GHG emissions, water usage, or energy consumption during the manufacture, or use of those technologies. The report from DJI Agriculture [5] focuses on the impact of their products on farming. However, they do not discuss the impact of AI, nor the cost of drones over traditional methods.<br>
+While we didn’t find any specific figures on the environmental impact of drones in agriculture given by companies, there are some reports that study LCA of such drones.<br>
+They rarely give precise numbers, but we understand through a comparison between ground-based techniques and UAVs [8], that drones generally are less power hungry, they are more efficient and help reduce labor.<br>
+The stakeholders agree the UAVs are a technology that helps farmers efficiently, reducing labor, waste (of products and water), and mitigating the environmental impact of farming practices, which leads to cost savings.<br>
+However, those specialized drones first come with a price, they need specific infrastructure, maintaining, and good connectivity. This is restricting access to those technologies to organisations that can afford it in the first place.<br>
+In addition, stakeholders worry about the use of data collected. Images or videos are taken so they are asking for regulations on data privacy and ownership.
 
 -final opinion (optionnal)
 
