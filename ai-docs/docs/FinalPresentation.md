@@ -16,6 +16,27 @@ Cons:
 
 ---
 
+-intro/summary
+Our project is about UAVs (Unmanned Aerial Vehicle) used for disease diagnosis, prevention and target treatment of crops.<br>
+
+Our first impression was mixed, we had a lot of preconceptions that we then tried to verify or refute on several topics. Such initial ideas were related to several topics, such as the energy used to power the drone, how such a technology could help a farmer, or the use of AI in this domain.<br>
+
+We reserached existing solutions, who made them, with which technologies, and for what purpose.<br>
+Then we discussed the use of AI in drones like that. How the data is processed and where it comes from.<br>
+We looked up information on the energy consumption of existing drones, and studied two different reports on LCA (Life Cycle Assessment) of UAVs used in farming.<br>
+And finally we tried to gather information on the impact of manufacturing such technologies, and what is said by stakeholders on the use of UAVs in this context.<br>
+
+-discussion of the pros and cons: what we found out across the assignments
+
+-short discussions about each assignment (sum up each assignment)
+.1
+.2
+.3
+.4
+
+-final opinion (optionnal)
+
+---
 
 
 ### Pros:
