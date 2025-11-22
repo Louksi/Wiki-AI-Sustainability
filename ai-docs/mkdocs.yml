@@ -8,6 +8,7 @@ nav:
   - Assignment n°2: 'Assignment_2.md'
   - Assignment n°3: 'Assignment_3.md'
   - Assignment n°4: 'Assignment_4.md'
+  - Final Presentation: 'FinalPresentation.md'
   - Facts and Values: 'facts&values.md'
 theme: readthedocs
 markdown_extensions:

@@ -2,7 +2,6 @@
 
 ## Summarize your projet, present the objectives of the solution and the pros/cons - and, if appropriate, give a final opinion on the application in the environmental context.
 
----
 
 Objective:
 UAV are use for disease diagnosis, prevention and target treatment. That helps farmer with better organization : reduce hours, and optimization : local application of pesticides on specific crops that have diseases.
@@ -14,7 +13,6 @@ Pros:
 Cons:
 - cf assignment.1.4
 
----
 
 -intro/summary
 Our project is about UAVs (Unmanned Aerial Vehicle) used for disease diagnosis, prevention and target treatment of crops.<br>

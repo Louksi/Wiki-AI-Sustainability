@@ -10,9 +10,9 @@ Recent research shows that agricultural UAVs equipped with onboard AI systems ca
 According to empirical field data, spraying UAVs are typically active for about 95 to 140 hours per year, depending on crop type and region [11].
 Considering a realistic spraying workload of approximately 100 hours of effective flight per year and an average flight power of 6–10 kW (values typical for professional spraying drones such as the DJI Agras series [12]), the annual energy consumption of such an AI-enhanced UAV can be estimated as:
 
-$$
+$
 E_{annual}​=P_{flight}​×t_{annual}​=8000W×100h=800 kWh/year
-$$
+$
 
 Including the energy consumption of the onboard AI, the total energy consumption reaches approximately 0.9 MWh per year for a fully operational AI-enabled agricultural drone.
 
