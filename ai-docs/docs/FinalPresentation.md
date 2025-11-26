@@ -18,23 +18,27 @@ And finally we tried to gather information on the impact of manufacturing such t
 
 1.
 
-Current drone systems, developed for both research and industry, operate using optical, thermal, or LiDAR sensors, sometimes combined with AI models, to detect diseases and, in some cases, perform targeted spraying. They work by capturing geolocated images or measurements, then preprocessing them to correct acquisition errors before having them analyzed by AI algorithms (CNNs, deep learning, random forests) to produce maps or diagnoses, potentially in real time.
+Current drone systems, developed for both research and industry, operate using optical, thermal, or LiDAR sensors, sometimes combined with AI models, to detect diseases and, in some cases, perform targeted spraying. They work by capturing geolocated images or measurements, then preprocessing them to correct acquisition errors before having them analyzed by AI algorithms (CNNs, deep learning, random forests) to produce maps or diagnoses, potentially in real time. [5]
 
 These technologies are used for disease monitoring and crop treatment, with experiments on small plots and industrial applications on large areas.
 
-However, these drones are subject to certain constraints/limitations such as weather conditions, short battery life, the need for frequent calibration, equipment costs, storage constraints, the need for labeled and expensive training data, processing time, and strict adherence to airspace regulations.
+However, these drones are subject to certain constraints/limitations such as weather conditions, short battery life, the need for frequent calibration, equipment costs, storage constraints, the need for labeled and expensive training data, processing time, and strict adherence to airspace regulations. [2]
 
 2.
 
 Drone-based disease detection systems primarily rely on supervised learning, using classical models (random forests, SVMs) or deep neural networks, such as CNNs, or other architectures like ResNet, EfficientNet, or U-Net. Some approaches combine multiple networks (e.g., LaNet5 + SegNet for vine segmentation) or employ feature selection and optimization techniques (mRMR, ant colony algorithms). When labeled data is lacking, unsupervised methods or reinforcement learning can be used instead.
 
-The resulting data to be analyzed consists of large, geolocated images accompanied by metadata, sometimes amounting to tens of gigabytes per flight. This data is generally private and protected, then stored locally or in the cloud. Before training, the data is preprocessed, labeled, and augmented to produce robust datasets, as in YOLO-Fi, which combines multispectral bands, vegetation indices, and manual annotations to create structured training and validation datasets.
+The resulting data to be analyzed consists of large, geolocated images accompanied by metadata, sometimes amounting to tens of gigabytes per flight. This data is generally private and protected, then stored locally or in the cloud. Before training, the data is preprocessed, labeled, and augmented to produce robust datasets, as in YOLO-Fi, which combines multispectral bands, vegetation indices, and manual annotations to create structured training and validation datasets. [1,2]
 
-The necessary infrastructure relies on drones equipped with various optical sensors (RGB, multispectral, hyperspectral, thermal, LiDAR) and GPS systems. Data can be processed in real time via onboard modules or analyzed post-flight on local or cloud servers using image and data processing tools such as OpenCV, GDAL, or QGIS, and frameworks like PyTorch or TensorFlow. Some systems, such as those using YOLO-Fi, rely on specific multispectral drones and RTK stations for highly accurate geolocation, as well as powerful computing hardware (e.g., RTX 4090 GPUs) for training.
+The necessary infrastructure relies on drones equipped with various optical sensors (RGB, multispectral, hyperspectral, thermal, LiDAR) and GPS systems. Data can be processed in real time via onboard modules or analyzed post-flight on local or cloud servers using image and data processing tools such as OpenCV, GDAL, or QGIS, and frameworks like PyTorch or TensorFlow. Some systems, such as those using YOLO-Fi [2], rely on specific multispectral drones and RTK stations for highly accurate geolocation, as well as powerful computing hardware (e.g., RTX 4090 GPUs) for training. 
 
 3.
 
 After combining various resources, we found that the annual consumption of a drone was approximately 0.8 and 0.9 MWh annually, almost all of which is due to physical materials and propulsion and not to the onboard AI system (less than 1%).
+
+We had some life cycle assessment studies [4,8] on agricultural UAV sprayers that indicate that while these systems offer environmental advantages compared to conventional boom and power sprayers, the production phase of the hardware contributes the most to their overall environmental impact. The production and assembly of UAV components, including materials like carbon fiber reinforced plastics, aluminum, and lithium-ion batteries, accounts for the majority of environmental burdens, particularly due to the extraction of rare-earth elements and the energy-intensive manufacturing of electronic components. In contrast, the operational phase of UAVs has a relatively low impact, as short flight times and high efficiency minimize energy consumption. End-of-life assessments are less commonly included, though studies that consider the complete life cycle show significant variation in impacts across categories such as ecotoxicity, human toxicity, and resource use. 
+
+Overall, UAV sprayers reduce environmental impacts during agricultural operations compared to traditional equipment, primarily due to lower fuel consumption and lighter hardware, but the benefits must be balanced against the substantial impacts associated with manufacturing. The findings highlight that the environmental footprint of digital agricultural technologies is heavily influenced by the amount and type of hardware used, emphasizing the need for sustainable design and material choices. We believe that pollution issues, particularly those related to helium production, will become much more environmentally friendly in the future, especially with the development of more efficient zinc-sodium batteries.
 
 ...
 
