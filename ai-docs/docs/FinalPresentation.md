@@ -2,7 +2,7 @@
 
 ## Summarize your projet, present the objectives of the solution and the pros/cons - and, if appropriate, give a final opinion on the application in the environmental context.
 
--intro/summary
+- intro/summary
 Our project is about UAVs (Unmanned Aerial Vehicle) used for disease diagnosis, prevention and target treatment of crops.<br>
 
 Our first impression was mixed, we had a lot of preconceptions that we then tried to verify or refute on several topics. Such initial ideas were related to several topics, such as the energy used to power the drone, how such a technology could help a farmer, or the use of AI in this domain.<br>
@@ -12,9 +12,18 @@ Then we discussed the use of AI in drones like that. How the data is processed a
 We looked up information on the energy consumption of existing drones, and studied two different reports on LCA (Life Cycle Assessment) of UAVs used in farming.<br>
 And finally we tried to gather information on the impact of manufacturing such technologies, and what is said by stakeholders on the use of UAVs in this context.<br>
 
--discussion of the pros and cons: what we found out across the assignments
+- discussion of the pros and cons: what we found out across the assignments
 
--short discussions about each assignment (sum up each assignment)
+Across the four assigments, we found several pros and cons of these systems.
+
+For the pros, theses systems can gather the crops data and have real time information about the field, such as detect diseace efficiently and spray them in a targeted way, reducing the amounts of water consumption, fertilizer and pesticides used. It also reduce labor costs and they can cover large areas quickly.<br>
+Also this systems run 24/7 and being autonomous.
+
+
+But there are also cons. First the cost of these systems is high, and the maintenance as well. Also these kind of infrastructures need a lot of energy consumption. In the assigment 3, we found that the annual energy consumption of such an AI-enhanced UAV can be estimated as 0.8 to 0.9 MWh per year, almost all of which is due to physical materials and propulsion and not to the onboard AI system.<br>
+There is also a data privacy concern, as these drones gather a lot of data about the field, and maybe the farmer doesn’t want to share it with third parties.<br>
+
+- short discussions about each assignment (sum up each assignment)
 
 1.
 
@@ -50,6 +59,6 @@ The stakeholders agree the UAVs are a technology that helps farmers efficiently,
 However, those specialized drones first come with a price, they need specific infrastructure, maintaining, and good connectivity. This is restricting access to those technologies to organisations that can afford it in the first place.<br>
 In addition, stakeholders worry about the use of data collected. Images or videos are taken so they are asking for regulations on data privacy and ownership.
 
--final opinion (optionnal)
+- final opinion (optionnal)
 
 ---
