@@ -2,7 +2,7 @@
 
 ## Summarize your projet, present the objectives of the solution and the pros/cons - and, if appropriate, give a final opinion on the application in the environmental context.
 
-- intro/summary
+### intro/summary
 Our project is about UAVs (Unmanned Aerial Vehicle) used for disease diagnosis, prevention and target treatment of crops.<br>
 
 Our first impression was mixed, we had a lot of preconceptions that we then tried to verify or refute on several topics. Such initial ideas were related to several topics, such as the energy used to power the drone, how such a technology could help a farmer, or the use of AI in this domain.<br>
@@ -12,7 +12,7 @@ Then we discussed the use of AI in drones like that. How the data is processed a
 We looked up information on the energy consumption of existing drones, and studied two different reports on LCA (Life Cycle Assessment) of UAVs used in farming.<br>
 And finally we tried to gather information on the impact of manufacturing such technologies, and what is said by stakeholders on the use of UAVs in this context.<br>
 
-- discussion of the pros and cons: what we found out across the assignments
+### discussion of the pros and cons: what we found out across the assignments
 
 Across the four assigments, we found several pros and cons of these systems.
 
@@ -23,7 +23,7 @@ Also this systems run 24/7 and being autonomous.
 But there are also cons. First the cost of these systems is high, and the maintenance as well. Also these kind of infrastructures need a lot of energy consumption. In the assigment 3, we found that the annual energy consumption of such an AI-enhanced UAV can be estimated as 0.8 to 0.9 MWh per year, almost all of which is due to physical materials and propulsion and not to the onboard AI system.<br>
 There is also a data privacy concern, as these drones gather a lot of data about the field, and maybe the farmer doesn’t want to share it with third parties.<br>
 
-- short discussions about each assignment (sum up each assignment)
+### short discussions about each assignment (sum up each assignment)
 
 1.
 
@@ -49,8 +49,6 @@ We had some life cycle assessment studies [4,8] on agricultural UAV sprayers tha
 
 Overall, UAV sprayers reduce environmental impacts during agricultural operations compared to traditional equipment, primarily due to lower fuel consumption and lighter hardware, but the benefits must be balanced against the substantial impacts associated with manufacturing. The findings highlight that the environmental footprint of digital agricultural technologies is heavily influenced by the amount and type of hardware used, emphasizing the need for sustainable design and material choices. We believe that pollution issues, particularly those related to helium production, will become much more environmentally friendly in the future, especially with the development of more efficient zinc-sodium batteries.
 
-...
-
 4.
 We had a hard time finding reports from companies. Unfortunately, the one we did find did not have any information on GHG emissions, water usage, or energy consumption during the manufacture, or use of those technologies. The report from DJI Agriculture [5] focuses on the impact of their products on farming. However, they do not discuss the impact of AI, nor the cost of drones over traditional methods.<br>
 While we didn’t find any specific figures on the environmental impact of drones in agriculture given by companies, there are some reports that study LCA of such drones.<br>
@@ -58,7 +56,3 @@ They rarely give precise numbers, but we understand through a comparison between
 The stakeholders agree the UAVs are a technology that helps farmers efficiently, reducing labor, waste (of products and water), and mitigating the environmental impact of farming practices, which leads to cost savings.<br>
 However, those specialized drones first come with a price, they need specific infrastructure, maintaining, and good connectivity. This is restricting access to those technologies to organisations that can afford it in the first place.<br>
 In addition, stakeholders worry about the use of data collected. Images or videos are taken so they are asking for regulations on data privacy and ownership.
-
-- final opinion (optionnal)
-
----
