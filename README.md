@@ -15,6 +15,3 @@
 ```
 
 The server will be hosted at ```127.0.0.1```
-<div align="center">
-  <img src="image.png" alt="Alt text" width="300" height="200">
-</div>
